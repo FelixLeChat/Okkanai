@@ -6709,8 +6709,20 @@ body.landing-page {
   width: 100%;
 }
 .landing-page .header-back.one {
-  background: url('../img/landing.png') 50% 0 no-repeat;
-}
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ), url(../img/landing2.png);
+    background-position-x: 50%;
+    background-position-y: 0px;
+    background-size: initial;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+  }
 .landing-page .header-back.two {
   background: url('../img/header_two.jpg') 50% 0 no-repeat;
 }
